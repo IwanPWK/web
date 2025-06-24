@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background: radial-gradient(circle at center, #d40000, #800000);
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    background-color: transparent;
+}
+
+.logo {
+    font-size: 26px;
+    font-weight: bold;
+    color: #fff;
+}
+.logo span{
+    color: orange
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 25px;
+    font-weight: bold;
+    transition: 1s;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+    position:relative;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    max-width: 1200px;
+}
+
+.burger-img {
+    width: 350px;
+    border-radius: 10px;
+}
+
+.text-content h1 {
+    font-size: 48px;
+    line-height: 1.2;
+}
+
+.text-content h1 span {
+    color: #ffc107
+}
+
+.text-content p {
+    margin: 20px 0;
+    font-size: 16px;
+    color: #eee;
+}
+
+.btn {
+    background-color: #ffc107b7;
+    color: black;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 1s;
+}
+
+.btn:hover {
+    background-color: #ff9800;
+}
+
+.price-badge {
+    position: absolute;
+    top: 110px;
+    left: 230px;
+    background-color: yellow;
+    color: black;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 50%;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+.price-badge span {
+    font-size: 20px;
+}
